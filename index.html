@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Hello World</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+    </head>
+  
+  <!--navigation bar-->
+  <body>
+    <nav id= "header-nav" class="navbar navbar-expand-md fixed-top">
+      <a class="header-nav" href="index.html" id = "home"> HOME </a>"
+        <button class="navbar-toggler" type="button" data-toggle="collapse"aria-expanded="false" aria-label="Toggle navigation"></button>
+  
+      <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+      
+      <!--summary on about me-->
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About Me</a>
+      </li>
+      
+      <!--my resume-->
+      <li class="nav-item active">
+        <a class="nav-link" href="resume.html">My Resume</a>
+      </li>
+      
+      <!--list of tools I want to build-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown">Tools I like</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="wordcloud.html">WordCloud</a>
+            <a class="dropdown-item" href="pdfc.html">Word to PDF Converter</a>
+            <a class="dropdown-item" href=rando.html>Randomizer</a>
+          </div>
+      </li>
+    </ul>
+    
+    <!--search function on the page-->
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Google Search" aria-label="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Google Search</button>
+    </form>
+  </div>
+    </nav>
+  
+  <!--form where users could provide feedback with name and email address-->
+  <section class=sectionform>
+  <div class="mb-3">
+    <label for="forminput1" class="form-label">Name</label>
+    <input type="name" class="form-control" id="forminput1" placeholder="What should I call you?">
+  </div>
+
+  <div class="mb-3">
+    <label for="forminput2" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="forminput2" placeholder="name@example.com">
+  </div>
+
+  <div class="mb-3">
+    <label for="formtext" class="form-label">Feedback</label>
+    <textarea class="form-control" id="formtext" rows="5"></textarea>
+  </div>
+
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3" onclick="submit()">Submit</button>
+  </div>
+</section>
+  
+<script src="script.js"></script>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>

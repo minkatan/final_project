@@ -1,0 +1,15 @@
+add alert in index.html to prompt feedback received!
+
+complete randomizer using javascript
+
+--- create a list based on user input and store in the javascript
+--- add a button to clear selection
+--- add a button to delete single selection
+--- allow anything submitted to be added into the list.
+---present the list of restaurant added using a table.
+
+
+resume to do
+---find out where is the break lines coming from in the style sheet and underline accordingly.
+---learn how to maintain CSS format if there's multiple different pages.
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Randomizer</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+    <script src = "script.js"></script>
+</head>
+  
+<body>
+    <header>
+      <a class="header-nav" href="index.html"><img src="logo.png" alt="logo" width="100" height="100"></a>
+    </header>
+
+    <main>
+      <h1>Which restaurant should we go today?!</h1>
+        <section class = "submitsection">
+            <h2 id = "formheading" class = "offscreen">Restaurant Name</h2>
+            <form id = "submitform" class = "submitsection_form">
+                <input
+                    type = "text"
+                    id = "submitsection_textinput"
+                    class = "submitsection_textinput"
+                    required
+                    maxlength="40"
+                    placeholder="Enter the restaurant"
+                    aria-labelledby="formHeading">
+                <button class ="submissionsection_button1" aria-label = "submit"></button>
+                <button class ="submissionsection_button2" aria-label = "clear" onclick="clearselection()"></button>
+            </form>
+          </section>
+        
+          <section id = "suggestionsection" class = "suggestionsection hidden">
+            <h3 id = suggested>Suggested restaurant : </h3>
+          </section>
+
+          <section id = "entrysection" class = "entrysection hidden">
+            <p>List of Restaurant Entered : </p>
+            <ol></ol>
+          </section>
+      </main>
+
+</body>
+</html>
